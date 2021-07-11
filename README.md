@@ -1,2 +1,2 @@
 # Hakerrank
-This repo comtains the problem statements solved on hackerrank 
+This repo contains the problem statements solved on hackerrank 
