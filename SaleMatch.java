@@ -101,9 +101,7 @@ public class SaleMatch
         int n = Integer.parseInt(bufferedReader.readLine().trim());
 
         System.out.print("Enter the color of socks : " );
-        List<Integer> ar = Stream.of(bufferedReader.readLine().replaceAll("\\s+$", "").split(" "))
-            .map(Integer::parseInt)
-            .collect(toList());
+        List<Integer> ar = Stream.of(bufferedReader.readLine().replaceAll("\\s+$", "").split(" ")).map(Integer::parseInt).collect(toList());
 
         int result = Result.sockMerchant(n, ar);
 
